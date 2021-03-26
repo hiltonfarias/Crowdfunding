@@ -1,0 +1,123 @@
+@model Crowdfunding.Domain.ViewModels.DonationViewModel
+
+@{
+    ViewData["Title"] = "Donation now";
+}
+
+<form asp-action="Create" asp-controller="Donation" method="POST">
+    <div class="text-center">
+        <h2>Donate now</h2>
+        <hr/>
+        <center>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Value" class="control-label"></label>
+                    <input asp-for="Value" id="value" placeholder="Donation value" class="form-control"/>
+                </div>
+            </div>
+            <hr/>
+        </center>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <fieldset>
+                <legend>Personal Data</legend>
+                <div class="form-group">
+                    <input asp-for="PersonalData.Name" placeholder="Full Name" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <input asp-for="PersonalData.Email" placeholder="Email" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <textarea 
+                        asp-for="PersonalData.SupportMessage" 
+                        class="form-control" 
+                        rows="3" maxlength="200" 
+                        placeholder="Leave a support message here"
+                    ></textarea>
+                </div>
+                <div class="form-group float-right">
+                    <label asp-for="PersonalData.Anonymous" class="control-label"></label>
+                    <input asp-for="PersonalData.Anonymous" />
+                </div>
+            </fieldset>
+        </div>
+        <div class="col-md-5">
+            <fieldset>
+                <legend>Billing address</legend>
+
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input asp-for="BillingAddress.TextAddress" maxlength="100" placeholder="Address" class="form-control small" />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <input asp-for="BillingAddress.Number" placeholder="Number" class="form-control small" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <input asp-for="BillingAddress.City" placeholder="City" class="form-control small" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input asp-for="BillingAddress.State" placeholder="State" id="state" class="form-control small" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <input asp-for="BillingAddress.CEP" id="cep" placeholder="CEP" class="form-control small" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input asp-for="BillingAddress.Complement" placeholder="Complement" class="form-control small" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input asp-for="BillingAddress.Phone" id="phone" placeholder="Phone" class="form-control small" />
+                </div>
+            </fieldset>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3 text-center"></div>
+        <div class="col-md-6 text-center">
+            <fieldset>
+                <legend>Payment data</legend>
+                <div class="form-group">
+                    <input asp-for="FormPayment.CardholderName" placeholder="Card Holder Name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <input asp-for="FormPayment.CreditCardNumber" id="cardNumber" placeholder="Credit Card Number" class="form-control" />
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input asp-for="FormPayment.Validity" id="validity" placeholder="Expiration date" class="form-control small" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input asp-for="FormPayment.CVV" id="cvv" placeholder="CVV" class="form-control small" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="col-md-3 text-center"></div>
+    </div>
+    <div class="text-center">
+        <div class="form-group">
+            <input type="submit" value="Donate" class="btn btn-yellow" />
+        </div>
+    </div>
+</form>

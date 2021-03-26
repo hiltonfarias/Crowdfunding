@@ -1,0 +1,12 @@
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/bin/Debug/net5.0/Crowdfunding.Domain.deps.json
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/bin/Debug/net5.0/Crowdfunding.Domain.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/bin/Debug/net5.0/ref/Crowdfunding.Domain.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/bin/Debug/net5.0/Crowdfunding.Domain.pdb
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/Debug/net5.0/Crowdfunding.Domain.csprojAssemblyReference.cache
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/Debug/net5.0/Crowdfunding.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/Debug/net5.0/Crowdfunding.Domain.AssemblyInfoInputs.cache
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/Debug/net5.0/Crowdfunding.Domain.AssemblyInfo.cs
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/Debug/net5.0/Crowdfunding.Domain.csproj.CoreCompileInputs.cache
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/Debug/net5.0/Crowdfunding.Domain.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/Debug/net5.0/ref/Crowdfunding.Domain.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/Debug/net5.0/Crowdfunding.Domain.pdb

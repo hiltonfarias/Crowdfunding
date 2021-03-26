@@ -1,0 +1,224 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/Crowdfunding.Service.csproj": {}
+  },
+  "projects": {
+    "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/Crowdfunding.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/Crowdfunding.Domain.csproj",
+        "projectName": "Crowdfunding.Domain",
+        "projectPath": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/Crowdfunding.Domain.csproj",
+        "packagesPath": "/home/hilton/.nuget/packages/",
+        "outputPath": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hilton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.5.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Repository/Crowdfunding.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Repository/Crowdfunding.Repository.csproj",
+        "projectName": "Crowdfunding.Repository",
+        "projectPath": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Repository/Crowdfunding.Repository.csproj",
+        "packagesPath": "/home/hilton/.nuget/packages/",
+        "outputPath": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hilton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/Crowdfunding.Domain.csproj": {
+                "projectPath": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Domain/Crowdfunding.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.5.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/Crowdfunding.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/Crowdfunding.Service.csproj",
+        "projectName": "Crowdfunding.Service",
+        "projectPath": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/Crowdfunding.Service.csproj",
+        "packagesPath": "/home/hilton/.nuget/packages/",
+        "outputPath": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hilton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Repository/Crowdfunding.Repository.csproj": {
+                "projectPath": "/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Repository/Crowdfunding.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

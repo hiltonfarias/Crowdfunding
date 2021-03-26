@@ -1,0 +1,17 @@
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/bin/Debug/net5.0/Crowdfunding.Service.deps.json
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/bin/Debug/net5.0/Crowdfunding.Service.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/bin/Debug/net5.0/ref/Crowdfunding.Service.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/bin/Debug/net5.0/Crowdfunding.Service.pdb
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/bin/Debug/net5.0/Crowdfunding.Domain.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/bin/Debug/net5.0/Crowdfunding.Repository.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/bin/Debug/net5.0/Crowdfunding.Repository.pdb
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/bin/Debug/net5.0/Crowdfunding.Domain.pdb
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/Crowdfunding.Service.csprojAssemblyReference.cache
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/Crowdfunding.Service.GeneratedMSBuildEditorConfig.editorconfig
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/Crowdfunding.Service.AssemblyInfoInputs.cache
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/Crowdfunding.Service.AssemblyInfo.cs
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/Crowdfunding.Service.csproj.CoreCompileInputs.cache
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/Crowdfunding.Service.csproj.CopyComplete
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/Crowdfunding.Service.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/ref/Crowdfunding.Service.dll
+/home/hilton/Documentos/Aulas/c-sharp/dotnet-Crowdfunding/src/Crowdfunding.Service/obj/Debug/net5.0/Crowdfunding.Service.pdb
